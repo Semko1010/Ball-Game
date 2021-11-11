@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vh;
+  height: 100vh;
+  margin: 0 auto;
+}
+body .header {
+  text-align: center;
+  width: 100vw;
+  background-color: chocolate;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .header .h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+body .header .p {
+  font-size: 3rem;
+  margin: 0;
+}
+body .header #highscore {
+  font-size: 3rem;
+  margin: 0;
+}
+body .container {
+  width: 100vw;
+  height: 100vh;
+  background-color: yellowgreen;
+}
+body .container .card {
+  display: flex;
+}
+body .container .card .ball1 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  transition: 0.5s;
+  position: absolute;
+}
+body .container .card .ball2 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  transition: 0.5s;
+  position: absolute;
+}
+body .container .card .ball3 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+  transition: 0.5s;
+  position: absolute;
+}
+body .container .card .ball4 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  transition: 0.5s;
+  position: absolute;
+}
+body .container .card .ball5 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  border-radius: 50%;
+  transition: 0.5s;
+  position: absolute;
+}
+body .next_Level {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: chocolate;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+body .next_Level .finish {
+  font-size: 7rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-shadow: 0 0 100px white;
+}
+body .next_Level .levelButton {
+  font-size: 2rem;
+  width: 30vw;
+  height: 15vh;
+  border-radius: 10px;
+  background-color: chocolate;
+}
+
+.ball_none {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
